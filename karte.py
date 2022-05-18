@@ -8,7 +8,7 @@ st.set_page_config(layout="wide")
 
 "## Test"
 
-m = folium.Map(location=[39.949610, -75.150282], zoom_start=5)
+m = folium.Map(location=[39.949610, -75.150282], zoom_start=10)
 Draw(export=True).add_to(m)
 output = st_folium(m, width=700, height=500)
     
